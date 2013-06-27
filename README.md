@@ -1,29 +1,16 @@
-Asynchronous Twitter client API for node.js
-===========================================
+Twat: Simple Twitter Streaming for Node.js
+==========================================
 
-[ntwitter](http://github.com/AvianFlu/ntwitter) is an improved version of jdub's [node-twitter](http://github.com/jdub/node-twitter), which in turn was inspired by, and uses some code from, technoweenie's [twitter-node](http://github.com/technoweenie/twitter-node).
+Twat is a heavily-modified version of AvianFlu's [ntwitter](http://github.com/AvianFlu/ntwitter), which is an improved version of jdub's [node-twitter](http://github.com/jdub/node-twitter), which in turn was inspired by, and uses some code from, technoweenie's [twitter-node](http://github.com/technoweenie/twitter-node).
 
 
 ## Installation
 
-You can install ntwitter and its dependencies with npm: `npm install ntwitter`.
+You can install Twat and its dependencies with npm: `npm install [NPM HERE]`.
 
 
-## Getting started
-
-This library is, for the most part, the same API as `node-twitter`. Much of the documentation below is straight from `node-twitter` - credit goes to [jdub](http://github.com/jdub) for putting all this together in the first place. 
-
-The most significant API change involves error handling in callbacks. Callbacks now receive the error as a separate parameter, rather than as part of the data. This is consistent with node's standard library. Callbacks should now look something like this:
-
-``` javascript
-function (err, result) {
-  if (err) return callback(err);
-
-  // Do something with 'result' here
-}
-```
-
-Where `callback` is the parent function's callback.  (Or any other function you want to call on error.)
+EVERYTHING AFTER THIS LINE IS BROKEN AND WILL BE CHANGED
+========================================================
 
 
 ### Setup API 
