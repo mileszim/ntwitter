@@ -6,7 +6,7 @@ Twat is a heavily-modified version of AvianFlu's [ntwitter](http://github.com/Av
 
 ## Installation
 
-You can install Twat and its dependencies with npm: `npm install [NPM HERE]`.
+You can install Twat and its dependencies with npm: `npm install twat`.
 
 
 EVERYTHING AFTER THIS LINE IS BROKEN AND WILL BE CHANGED
@@ -18,12 +18,12 @@ EVERYTHING AFTER THIS LINE IS BROKEN AND WILL BE CHANGED
 The keys listed below can be obtained from [dev.twitter.com](http://dev.twitter.com) after [setting up a new App](https://dev.twitter.com/apps/new).
 
 ``` javascript
-var twitter = require('ntwitter');
+var twitter = require('twat');
 
 var twit = new twitter({
   consumer_key: 'Twitter',
   consumer_secret: 'API',
-  access_token_key: 'keys',
+  access_token: 'keys',
   access_token_secret: 'go here'
 });
 ```

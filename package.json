@@ -1,27 +1,22 @@
 { 
-  "name": "ntwitter", 
-  "version": "0.5.0",
-  "description": "Asynchronous Twitter REST/stream/search client API for node.js.", 
+  "name": "twat", 
+  "version": "0.0.1",
+  "description": "Simple Twitter Streaming for Node.js", 
   "keywords": ["twitter","streaming","oauth"], 
-  "homepage": "https://github.com/AvianFlu/ntwitter", 
-  "author": "jdub, changes by AvianFlu", 
-  "licenses": { 
-    "type": "MIT", 
-    "url": "http://github.com/AvianFlu/ntwitter/raw/master/LICENSE"
-  },
+  "homepage": "https://github.com/mileszim/twat", 
+  "author": "Miles Zimmerman", 
+  "license": "MIT",
   "repository": { 
     "type": "git", 
-    "url": "http://github.com/AvianFlu/ntwitter.git"
+    "url": "https://github.com/mileszim/twat"
   }, 
   "dependencies": { 
-    "oauth": ">=0.8.4", 
-    "cookies": "0.1.x",
-    "keygrip": "0.2.x"
+    "oauth": ">=0.8.4"
   }, 
   "devDependencies": {
     "should": "*",
     "mocha": "*"
   },
   "engines": {"node":">=0.4.0"}, 
-  "main": "./lib/twitter"
+  "main": "./lib/twat"
 }
