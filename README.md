@@ -35,8 +35,8 @@ Here is an example of how to call the `statuses/sample` method:
 
 ``` javascript
 twit.stream('statuses/sample', function(stream) {
-  stream.on('data', function(data) {
-    console.log(data);
+  stream.on('tweet', function(tweet) {
+    console.log(tweet);
   });
 });
 ```
@@ -45,8 +45,8 @@ Here is an example of how to call the 'statuses/filter' method with a bounding b
 
 ``` javascript
 twit.stream('statuses/filter', {'locations':'-122.75,36.8,-121.75,37.8,-74,40,-73,41'}, function(stream) {
-  stream.on('data', function (data) {
-    console.log(data);
+  stream.on('tweet', function(tweet) {
+    console.log(tweet);
   });
 });
 ```
@@ -55,8 +55,8 @@ Twat also supports user and site streams:
 
 ``` javascript
 twit.stream('user', {track:'nodejs'}, function(stream) {
-  stream.on('data', function (data) {
-    console.log(data);
+  stream.on('tweet', function (tweet) {
+    console.log(tweet);
   });
   stream.on('end', function(response) {
     // Handle a disconnection
@@ -78,8 +78,8 @@ To get tweets from the stream:
 
 ``` javascript
 twit.stream('statuses/sample', function(stream) {
-  stream.on('data', function (data) {
-    console.log(data);
+  stream.on('tweet', function(tweet) {
+    console.log(tweet);
   });
 });
 ```
