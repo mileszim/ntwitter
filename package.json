@@ -1,6 +1,6 @@
 { 
   "name": "twat", 
-  "version": "0.8.1",
+  "version": "0.8.2",
   "description": "Simple Twitter Streaming for Node.js", 
   "keywords": ["twitter","streaming","oauth"], 
   "homepage": "https://github.com/mileszim/twat", 
