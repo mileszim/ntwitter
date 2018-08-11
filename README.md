@@ -1,6 +1,8 @@
 Twat: Simple Twitter Streaming for Node.js
 ==========================================
 
+https://vimeo.com/3181548
+
 Twat is a heavily-modified version of AvianFlu's [ntwitter](http://github.com/AvianFlu/ntwitter), which is an improved version of jdub's [node-twitter](http://github.com/jdub/node-twitter), which in turn was inspired by, and uses some code from, technoweenie's [twitter-node](http://github.com/technoweenie/twitter-node).
 
 The goal of Twat is to provide an extremely easy, consistent connection to Twitter's streaming API, and handle reconnection (including backoff strategies) automatically so you don't have to.
